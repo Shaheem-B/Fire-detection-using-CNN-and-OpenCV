@@ -44,6 +44,7 @@ for img in os.listdir(non_fire_images_path)[:5]:
   plt.imshow(img_array)
   plt.show()
 
+#Training and testing the CNN model
 img_array.shape
 
 data = []
