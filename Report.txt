@@ -1,5 +1,8 @@
 FIRE DETECTION SYSTEM USING CNN AND OPENCV : 
-    Fire accidents cause significant loss of life and property, making early fire detection crucial. Traditional fire detection systems rely on sensors, which can be expensive and slow in response. This project aims to develop a real-time fire detection system using Convolutional Neural Networks (CNN) and OpenCV, improving efficiency and accuracy by leveraging image-based recognition.
+    Fire accidents cause significant loss of life and property, making early fire detection crucial. Traditional fire 
+    detection systems rely on sensors, which can be expensive and slow in response. This project aims to develop a real-time 
+    fire detection system using Convolutional Neural Networks (CNN) and OpenCV, improving efficiency and accuracy by 
+    leveraging image-based recognition.
 
 1) Objectives:
     Develop a deep learning-based fire detection system.
