@@ -1,0 +1,45 @@
+FIRE DETECTION SYSTEM USING CNN AND OPENCV : 
+    Fire accidents cause significant loss of life and property, making early fire detection crucial. Traditional fire detection systems rely on sensors, which can be expensive and slow in response. This project aims to develop a real-time fire detection system using Convolutional Neural Networks (CNN) and OpenCV, improving efficiency and accuracy by leveraging image-based recognition.
+
+1) Objectives:
+    Develop a deep learning-based fire detection system.
+    Train a CNN model to detect fire in images and videos.
+    Implement real-time fire detection using OpenCV.
+    Improve detection accuracy with a custom-trained model.
+
+2) Methodology:
+2.1) Data Collection & Preprocessing:
+    Fire and non-fire image datasets were collected from various sources.
+    Images were resized and normalized for CNN processing.
+    Data augmentation techniques such as rotation, flipping, and brightness adjustments were applied to enhance model generalization.
+
+2.2) CNN Model Architecture:
+    The CNN model consists of multiple convolutional layers for feature extraction.
+    Pooling layers were used to reduce spatial dimensions.
+    Fully connected layers classified images as fire or non-fire.
+    Softmax activation function provided probability scores for classification.
+
+2.3) Model Training:
+    The dataset was split into training (80%) and testing (20%) sets.
+    The model was trained using a categorical cross-entropy loss function.
+    Adam optimizer was used to optimize learning.
+    Performance metrics such as accuracy, precision, recall, and F1-score were evaluated.
+
+2.4) Real-Time Fire Detection with OpenCV:
+    The trained CNN model was integrated with OpenCV for real-time fire detection.
+    Frames from video streams were processed and passed through the model.
+    Bounding boxes were drawn around detected fire regions.
+    Alerts were triggered upon fire detection.
+
+3) Results & Analysis:
+    The model achieved high accuracy in fire detection, outperforming traditional methods.
+    Real-time detection was successful with minimal latency.
+    False positives and false negatives were analyzed and minimized by refining the dataset and model architecture.
+
+4) Conclusion & Future Scope
+    The CNN-based fire detection system demonstrated effectiveness in real-time applications.
+
+5) Future improvements can include:
+    Integration with IoT devices for automated fire response systems.
+    Use of more complex deep learning models like YOLO or Faster R-CNN for improved accuracy.
+    Deployment on embedded systems for mobile and edge computing applications.
